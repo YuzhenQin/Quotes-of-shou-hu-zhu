@@ -68,7 +68,7 @@ lucky很害羞躲起来了
 
 // This just echoes the chosen line, we'll position it later.
 function hello_dolly() {
-	$chosen = "守护主：".hello_dolly_get_lyric();
+	$chosen = "守护煮：".hello_dolly_get_lyric();
 	$lang = '';
 	if ( 'en_' !== substr( get_user_locale(), 0, 3 ) ) {
 		$lang = ' lang="en"';
